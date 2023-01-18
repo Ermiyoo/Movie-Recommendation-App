@@ -1,9 +1,10 @@
+//+
+import logo from './logo.svg';
+import './App.css';
+import AddMovies from './add_movie';
 function App() {
   return (
-    <div className="App">
-    	<p>WELCOME TO MY MOVIE APP</p>
-    </div>
+ <AddMovies></AddMovies>
   );
 }
-
 export default App;

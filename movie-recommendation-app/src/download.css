@@ -1,0 +1,37 @@
+.topBar{
+    padding: 10px;
+    background-color: rgb(24, 23, 23);
+   height: 50px;
+}
+.body{
+    background-color: rgb(47, 45, 45);
+    padding: 50px;
+}
+.detailHolder{
+    display: inline;
+    float:right;
+    color: white;
+    background-color: rgb(94, 90, 90);
+    width: 850px;
+    padding: 50px;
+    height: 500px;
+}
+.favorite{
+    margin-left: 650px;
+}
+.title{
+    font-size: 20px;
+}
+.poster{
+    display: inline;
+}
+.download{
+        background-color: white;
+        margin: 20px;
+        background-position: 10px 10px;
+        border-radius: 20px;
+        border: solid rgb(42, 112, 241);
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 100px;
+}
