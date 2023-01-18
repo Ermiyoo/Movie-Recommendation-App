@@ -39,3 +39,13 @@
     height: 10px;
     width: 400px;
   }
+  .fieldset{
+    color: white;
+    margin: 10px;
+    background-position: 10px 10px;
+    border-radius: 20px;
+    border: solid rgb(252, 253, 254);
+    background-repeat: no-repeat;
+    width: 400px;
+    padding-left: 40px;
+  }

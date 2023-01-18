@@ -1,10 +1,9 @@
 //+
-import logo from './logo.svg';
-import './App.css';
-import AddMovies from './add_movie';
+
+import User_home_page from './user_home_page';
 function App() {
   return (
- <AddMovies></AddMovies>
+ <User_home_page></User_home_page>
   );
 }
 export default App;

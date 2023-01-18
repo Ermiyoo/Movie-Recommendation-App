@@ -12,7 +12,7 @@ function Body(){
         <center>
         <div class="body">
             <TextInputHolder type="text" name="title" hint="Title"></TextInputHolder><br/>
-            <TextInputHolder type="text" name="gener" hint="Gener"></TextInputHolder><br/>
+            <ChooseCategory></ChooseCategory>
             <TextInputHolder type="text" name="director" hint="Director"></TextInputHolder><br/>
             <TextInputHolder type="text" name="writer" hint="Writer"></TextInputHolder><br/>
             <TextInputHolder type="text" name="actors" hint="Actors"></TextInputHolder><br/>
@@ -39,4 +39,22 @@ function AddButton(){
         </>
     );
 }
+function ChooseCategory(){
+
+    return(
+        <fieldset class ="fieldset">
+             <legend>Gener/Category</legend>
+             Action: <input name="action" type="checkbox"/>
+             Comedy: <input name="comedy" type="checkbox"/>
+             Drama: <input name="drama" type="checkbox"/><br/>
+             Fantasy: <input name="fantasy" type="checkbox"/>
+             Horror: <input name="horror" type="checkbox"/>
+             Mystery: <input name="mystery" type="checkbox"/><br/>
+             Romance: <input name="romance" type="checkbox"/>
+             Thriller: <input name="thriller" type="checkbox"/>
+             Wester: <input name="western" type="checkbox"/>
+             
+      </fieldset>
+    );
+} 
 export {Top_bar,Body}

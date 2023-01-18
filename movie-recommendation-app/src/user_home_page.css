@@ -56,3 +56,15 @@
     margin-left: 110px;
     margin-bottom: 10px;
 }
+.navigation{
+    background-color: rgb(67, 67, 67);
+    margin: 20px;
+    margin-left: 50px;
+    color: #ffffff;
+    background-position: 10px 10px;
+    border-radius: 20px;
+    border: solid rgb(241, 135, 42);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 100px;
+}
