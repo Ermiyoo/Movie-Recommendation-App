@@ -29,6 +29,7 @@
     margin: 100px;
     height: 500px;
     width: 385px;
+    background-color: rgb(47, 45, 45);
 }
 .loginButton{
   background-color: white;
@@ -41,7 +42,7 @@
   width: 150px;
 }
 .signUpLink{
-    background-color: white;
+  background-color: rgb(47, 45, 45);
     color: rgb(42, 112, 241);
     margin-left: 225px;
     height: 25px;

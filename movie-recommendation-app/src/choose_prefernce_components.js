@@ -1,9 +1,9 @@
-import "./choose_prefernce.css"
+
 function CategoryContainer(){
     return(
     <center>
         
-    <div class="container">
+    <div class="choose_prefernce_container">
     <h1>Choose Gnere </h1><br/>
         <label>Select at least 3?</label><br/>
         <CatButton value="action" content="Action"></CatButton>
