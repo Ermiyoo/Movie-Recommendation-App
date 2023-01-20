@@ -10,17 +10,12 @@
 
 # Group Members
 
-### ERMIYAS GETACHEW 
-### SAMUEL FENTIE
-### AMEN DEMISSE
-### TSENAT BERHANU
-### AMANUEL TESFALEM
-### AMANUEL SETU
-### ABEL GETACHEW
+### -> ERMIYAS GETACHEW ### -> SAMUEL FENTIE ### -> AMEN DEMISSE
+### -> TSENAT BERHANU ### -> AMANUEL TESFALEM ### -> AMANUEL SETU ### -> ABEL GETACHEW
 
 # What can this site Do?
 
-### User
+### ---> User
 
 #### Create User Account / Signup
 #### Login to your Account / Login
@@ -29,7 +24,7 @@
 #### Download A Movie (Simulation)
 #### Add Movies to Favourites List
 
-### Admin
+### ---> Admin
 
 #### Add new Movie To the Database
 #### Update Movies
