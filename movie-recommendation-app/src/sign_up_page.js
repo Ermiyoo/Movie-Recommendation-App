@@ -1,8 +1,9 @@
 import {TextInputHolder,CreateAccount} from "./sign_up_component"
+import "./sign_up_page.css"
 function Sign_up_page(){
     return (
         <center>
-        <div class="container">
+        <div class="sign_up_container">
         <img src={require(".//image_asset/logo.png")} width="100" height="100"></img><br/><br/>
         <TextInputHolder type="text" name="email" hint="First name"></TextInputHolder><br/>
         <TextInputHolder type="text" name="password" hint="Last name"></TextInputHolder><br/>

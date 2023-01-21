@@ -1,13 +1,13 @@
-.topBar{
+.download_topBar{
     padding: 10px;
     background-color: rgb(24, 23, 23);
    height: 50px;
 }
-.body{
+.download_body{
     background-color: rgb(47, 45, 45);
     padding: 50px;
 }
-.detailHolder{
+.download_detailHolder{
     display: inline;
     float:right;
     color: white;
@@ -16,13 +16,13 @@
     padding: 50px;
     height: 500px;
 }
-.favorite{
+.download_favorite{
     margin-left: 650px;
 }
-.title{
+.download_title{
     font-size: 20px;
 }
-.poster{
+.download_poster{
     display: inline;
 }
 .download{
