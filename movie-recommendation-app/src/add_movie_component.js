@@ -18,6 +18,7 @@ function Body(){
             <TextInputHolder type="text" name="actors" hint="Actors"></TextInputHolder><br/>
             <TextInputHolder type="text" name="language" hint="Language"></TextInputHolder><br/>
             <TextInputHolder type="text" name="award" hint="Award"></TextInputHolder><br/>
+            <TextInputHolder type="text" name="realeasDate" hint="Realease Date"></TextInputHolder><br/>
             <TextInputHolder type="text" name="production" hint="Production"></TextInputHolder><br/>
             <input class="poster" text="Add poster"type="file"></input><br/>
             <AddButton></AddButton>
