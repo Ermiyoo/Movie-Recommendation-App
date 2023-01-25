@@ -2,11 +2,14 @@ import "./saved_movies.css"
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Download from './download_page';
+import User_home_page from "./user_home_page";
 function Top_bar(props){
     return(
         <>
         <div class="user_home_topBar">
             <img src={require(".//image_asset/logo.png")} width="50" height="30"></img>
+            <Navigation action={home_page}name="Home" content="Home"></Navigation>
+    
             <SearchBar></SearchBar>
         </div>
         <div class="favorite">Favorite <img src={require(".//image_asset/favorite.png")} width="20" height="22"/></div>
@@ -17,6 +20,21 @@ function Top_bar(props){
 function SearchBar(){
     return (
         <input class="user_home_searchBar" type="text" placeholder="Search for a movie"></input>
+    );
+}
+function Navigation(props){
+ 
+    return(
+        <button onClick={props.action}class="user_home_navigation"name={props.name}>{props.content}</button>
+    );
+}
+//to redirect to user home page you have to make sure password and email before redirecting
+function home_page(){
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+      <React.StrictMode>
+       <User_home_page></User_home_page>
+      </React.StrictMode>
     );
 }
 const movie_detail=e=>{

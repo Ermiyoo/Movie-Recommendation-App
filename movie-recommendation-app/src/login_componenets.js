@@ -9,7 +9,7 @@ function TextInputHolder(props){
     </>
     );
 }
-//to redirect to user home page
+//to redirect to user home page you have to make sure password and email before redirecting
 function home_page(){
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
