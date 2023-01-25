@@ -6,18 +6,25 @@ import ChoosePrefernces from "./choose_prefernce";
 function TextInputHolder(props){
     return(
     <>
-    <input type={props.type} class="sign_up_textInput" placeholder={props.hint}/>
+    <input type={props.type} class="sign_up_textInput" id={props.id}placeholder={props.hint}/>
     </>
     );
 }
+
 function select_category(){
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(
-      <React.StrictMode>
-       <ChoosePrefernces></ChoosePrefernces>
-      </React.StrictMode>
-    );
+    console.log(document.getElementById("password"))
+    if(document.getElementById("password").value==document.getElementById("cpassword").value){
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(
+        <React.StrictMode>
+        <ChoosePrefernces></ChoosePrefernces>
+        </React.StrictMode>
+        );
+    }else{
+        alert("The password you entered do not match!!")
+    }
 }
+
 function CreateAccount(){
     return(
         <>

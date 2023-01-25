@@ -2,7 +2,6 @@ import { Top_bar,Body } from "./download_component";
 import "./download.css"
 function Download(props){
     return(
-
         <>
         <Top_bar></Top_bar>
         <Body 
