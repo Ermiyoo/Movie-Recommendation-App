@@ -1,15 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import User_home_page from "./user_home_page";
+import AboutUs from './about_us_page';
 function Top_bar(){
     return(
         <div class="download_topBar">
         <img src={require(".//image_asset/logo.png")} width="50" height="30"></img>
         <Navigation action={home_page}name="Home" content="Home"></Navigation>
-        
+         <Navigation action={about_us} name="about_us" content="About Us"></Navigation> 
     </div>
         );        
-}//to redirect to user home page you have to make sure password and email before redirecting
+}
+function about_us(){
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+      <React.StrictMode>
+       <AboutUs></AboutUs>
+      </React.StrictMode>
+    );
+}
+//to redirect to user home page you have to make sure password and email before redirecting
 function home_page(){
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(

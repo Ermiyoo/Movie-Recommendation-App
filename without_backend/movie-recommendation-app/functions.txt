@@ -11,3 +11,8 @@
     user home page is responsive to change in screen size
 
     if user add movie to favorite and then change his mind then he can remove it by clicking like again 
+
+    the comment page inside about us is another funtionality where we accept user comment and update state of component 
+    we used useEffect() so that we can cleare textarea as user sends his comment
+
+    checks for incomplete form when sign in

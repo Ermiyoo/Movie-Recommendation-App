@@ -1,6 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import AboutUs from './about_us_page';
 import Download from './download_page';
 import Favorite_page from "./saved_page"
 function Top_bar(props){
@@ -45,7 +46,7 @@ function about_us(){
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
       <React.StrictMode>
-       <Favorite_page></Favorite_page>
+       <AboutUs></AboutUs>
       </React.StrictMode>
     );
 }
