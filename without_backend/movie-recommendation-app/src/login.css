@@ -1,18 +1,18 @@
-.email{
-    background-color: white;
-    background-image: url('image_asset/email.png');
-    margin: 20px;
-    background-position: 10px 10px;
-    border-radius: 20px;
-    border: solid rgb(43, 48, 57);
-    background-repeat: no-repeat;
-    height: 50px;
-    width: 300px;
-    padding-left: 40px;
-}
-.password{
+.username {
   background-color: white;
-  background-image: url('image_asset/email.png');
+  background-image: url("image_asset/email.png");
+  margin: 20px;
+  background-position: 10px 10px;
+  border-radius: 20px;
+  border: solid rgb(43, 48, 57);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 300px;
+  padding-left: 40px;
+}
+.password {
+  background-color: white;
+  background-image: url("image_asset/email.png");
   margin: 20px;
   background-position: 10px 10px;
   border-radius: 20px;
@@ -23,15 +23,15 @@
   padding-left: 40px;
 }
 .container {
-    border: solid rgb(42, 112, 241);
-    border-radius: 20px;
-    padding: 20px;
-    margin: 100px;
-    height: 500px;
-    width: 385px;
-    background-color: rgb(47, 45, 45);
+  border: solid rgb(42, 112, 241);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 100px;
+  height: 500px;
+  width: 385px;
+  background-color: rgb(47, 45, 45);
 }
-.loginButton{
+.loginButton {
   background-color: white;
   margin: 20px;
   background-position: 10px 10px;
@@ -41,10 +41,10 @@
   height: 50px;
   width: 150px;
 }
-.signUpLink{
+.signUpLink {
   background-color: rgb(47, 45, 45);
-    color: rgb(42, 112, 241);
-    margin-left: 225px;
-    height: 25px;
-    width: 70px;
-  }
+  color: rgb(42, 112, 241);
+  margin-left: 225px;
+  height: 25px;
+  width: 70px;
+}
