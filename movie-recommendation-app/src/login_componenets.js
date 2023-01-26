@@ -7,7 +7,7 @@ import User_home_page from "./user_home_page";
 const login = async (user, pass) => {
   // const pwd = bcrypt.hashSync(this.state.password, salt);
 
-  return await axios.post("http://localhost:8000/api/v1/user/login", {
+  return await axios.post("https://moviebackend-rmr1.onrender.com/api/v1/user/login", {
     username: user,
     password: pass,
   });
