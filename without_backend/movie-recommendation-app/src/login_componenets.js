@@ -10,8 +10,6 @@ function TextInputHolder(props){
     );
 }
 //to redirect to user home page you have to make sure password and email before redirecting
-
-
 function LoginButton(props){
     return(
         <>
@@ -42,7 +40,7 @@ function signUp_page(){
 function SignUpLink(){
     return(
         <>
-        <a class="signUpLink"  onClick={signUp_page}>Sign in ?</a>
+        <a  class="signUpLink"  onClick={signUp_page}>Sign in ?</a>
         </>
     );
 }

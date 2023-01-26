@@ -12,16 +12,26 @@ function TextInputHolder(props){
 }
 
 function select_category(){
-    if(document.getElementById("password").value==document.getElementById("cpassword").value){
-        const root = ReactDOM.createRoot(document.getElementById('root'));
-        root.render(
-        <React.StrictMode>
-        <ChoosePrefernces userPreEmail={document.getElementById("email").value} userPrePassword={document.getElementById("password").value}></ChoosePrefernces>
-      
-        </React.StrictMode>
-        );
+    if(document.getElementById("cpassword").value===""
+    &&document.getElementById("firstName").value===""
+    &&document.getElementById("lastName").value===""
+    &&document.getElementById("email").value===""
+    &&document.getElementById("password").value===""){
+        console.log(document.getElementById("cpassword").value)
+        alert("Incomplete form!!")     
     }else{
-        alert("The password you entered do not match!!")
+        if(document.getElementById("password").value==document.getElementById("cpassword").value){
+            const root = ReactDOM.createRoot(document.getElementById('root'));
+            root.render(
+            <React.StrictMode>
+            <ChoosePrefernces userPreEmail={document.getElementById("email").value} userPrePassword={document.getElementById("password").value}></ChoosePrefernces>
+        
+            </React.StrictMode>
+            );
+        }else{
+            alert("The password you entered do not match!!")
+        }
+        
     }
 }
 
