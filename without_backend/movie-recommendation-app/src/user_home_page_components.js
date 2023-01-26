@@ -9,6 +9,7 @@ function Top_bar(props) {
         src={require(".//image_asset/logo.png")}
         width="50"
         height="30"
+        alt="logo"
       ></img>
       <Navigation
         action={about_us}
