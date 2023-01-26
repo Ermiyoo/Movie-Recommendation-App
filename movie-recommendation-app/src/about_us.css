@@ -1,0 +1,59 @@
+.about_us_navigation{
+    background-color: rgb(67, 67, 67);
+    margin: 20px;
+    
+    color: #ffffff;
+    background-position: 10px 10px;
+    border-radius: 20px;
+    border: solid rgb(241, 135, 42);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 100px;
+}
+.about_us_topBar{
+    background-color: rgb(24, 23, 23);
+   height: 70px;
+}
+.about_us_body{
+    background-color: rgb(47, 45, 45);
+    padding-top: 50px;
+    color:#ffffff;
+    height: 1200px;
+    width: 1200px;
+    line-height: 40px;
+}
+.paragra{
+    padding: 20px;
+}
+.comm{
+    float: right;
+    height: 500px;
+    width: 500px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.inputBox{
+    float: right;
+    height: 70px;
+    width: 470px;
+   padding: 10px;
+    border-radius: 20px;
+}
+.inputButton{
+    background-color: white;
+    margin: 20px;
+    background-position: 10px 10px;
+    border-radius: 20px;
+    border: solid rgb(42, 112, 241);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 150px;
+    float: right;
+    
+}
+.commentDiv{
+    margin-top: 150px;
+    text-align: left;
+}
+

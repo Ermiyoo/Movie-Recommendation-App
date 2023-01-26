@@ -1,0 +1,18 @@
+    confirm password similarity with password
+    like and unlike movie
+    if user didn't choose more than or equal to 3 categories he can't procced
+    it have search capabilities 
+    if film Realse date is in these year it is not allowed to download the film else download will start with the film name
+    stores film liked in one separate page
+
+
+
+    we have used props to share information between pages seens we don't have persistent backend here so we hae to render page directly in this one
+    user home page is responsive to change in screen size
+
+    if user add movie to favorite and then change his mind then he can remove it by clicking like again 
+
+    the comment page inside about us is another funtionality where we accept user comment and update state of component 
+    we used useEffect() so that we can cleare textarea as user sends his comment
+
+    checks for incomplete form when sign in page

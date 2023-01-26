@@ -1,0 +1,28 @@
+1 login page will appear
+2 since there is no user who signed in click sign in link
+3 then insert the necessary information makesure password and confirm password are 
+  same else alert will appear then click 'Create Account' button
+4 from the avilable categories choose at least 3 and hit next
+5 then pervious login page will come, insert user email and password as you have created
+6 it will forward you to home page which dynamicaly iterate through movies and give us list of movies
+7 at this point there are bunch of things we can do:
+
+		A)Like a movie(add movie to favorites list)   
+ 			1) click like image that looks like heart twice and it will change it's color to red
+			2) if you want to unlike click the heart again and it will remove it from favorites list
+			3) click favorite button on top of navigation bar
+			4) then it will forward us to favorite movis list click home button and go back to home
+		B)Seach a movie
+			1)in the navigation bar you will find search input bar click on it
+			2)insert name of movie(title) then if there is a movie with title it will immedatily forward us to detail page of that movie
+		C)See detail of movie
+			1)in home page click on the move that you want to see the detail for
+			2)then detail of movie with movie will appear
+			3)at this point there are two things you can do :
+				a) Download the movie
+					1)click on download button below if movie publish date is in this year you can't download it and an alert will
+					 appear noticing you that
+					2)else when you click download button alert will come notifying you download have started and .mkv file with 
+					 movie name will be downloaded to your machine
+				b)go back to home page by clicking home button on the top
+				
