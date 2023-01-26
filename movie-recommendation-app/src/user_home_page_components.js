@@ -1,6 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import AboutUs from './about_us_page';
 import Download from './download_page';
 import Favorite_page from "./saved_page"
 function Top_bar(props){
@@ -45,15 +46,20 @@ function about_us(){
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
       <React.StrictMode>
-       <Favorite_page></Favorite_page>
+       <AboutUs></AboutUs>
       </React.StrictMode>
     );
 }
+// list of movies
+
+const film={Avengers:2023,Freedom:2008,IronMan:2023,Jaws:2010,Matrix:2003,Midsommar:2023,Rocky:2022,SanAndreas:2005,SpiderMan:2022}
+ const favMovie={}  
+
 function favorite(){
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
       <React.StrictMode>
-       <Favorite_page></Favorite_page>
+       <Favorite_page movieFav={favMovie}></Favorite_page>
       </React.StrictMode>
     );
 }
@@ -64,11 +70,17 @@ function Navigation(props){
     );
 }
 
+// film List in array
+
 function Body(){
     return (
-        <div id="user_home_grid">
-            <Movie date="2008" title="Avengers" ></Movie>   
-            <Movie date="2023" title="Freedom" ></Movie>   
+        <div id="user_home_grid"> 
+            {
+                Object.entries(film).map(
+                    ([k,v])=>(
+                    <Movie key={k}date={v} title={k} >{k}:{v}</Movie> 
+                ))
+            }
         </div>
     );
 }
@@ -77,11 +89,16 @@ let like=0
 const handleEdit = e => {
     
     e.preventDefault();
+    let keyValue=e.target.id
     if(like==0){
         document.getElementById(e.target.id).src=require(".//image_asset/favorite.png");
+       
+        favMovie[keyValue.slice(0,keyValue.length -5)]=film[keyValue.slice(0,keyValue.length -5)]
+        console.log(favMovie)
         like=1
     }else if(like==1){
         document.getElementById(e.target.id).src=require(".//image_asset/heart.png");
+        delete favMovie[keyValue.slice(0,keyValue.length -5)]
         like=0
     }
   };

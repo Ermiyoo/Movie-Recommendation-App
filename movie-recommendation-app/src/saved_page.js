@@ -15,6 +15,7 @@ function Favorite_page(props){
          language={props.language}
          award={props.award}
          production={props.production}
+         movies={props.movieFav}
         ></Body>
         </div>
     );

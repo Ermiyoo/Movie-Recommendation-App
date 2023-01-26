@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import User_home_page from "./user_home_page";
-function CategoryContainer(){
+import Login from './login';
+function CategoryContainer(props){
     return(
     <center>
         
@@ -16,7 +16,7 @@ function CategoryContainer(){
         <CatButton id="mystery"value="mystery" content="Mystery"></CatButton>
         <CatButton id="romance"value="romance" content="Romance"></CatButton>
         <CatButton id="western"value="western" content="Western"></CatButton>
-        <Next></Next>
+        <Next userEmail={props.userEmail} userPassword={props.userPassword}></Next>
     </div>
 </center>
     );
@@ -30,7 +30,7 @@ function CatButton(props){
      </div>
     );
 }
-function Next(){
+function Next(props){
     let count=0
     return(
         <button onClick={()=>{
@@ -60,9 +60,10 @@ function Next(){
              }
              if(count>=3){
                 const root = ReactDOM.createRoot(document.getElementById('root'));
+                console.log(props.userEmail)
                 root.render(
                 <React.StrictMode>
-                <User_home_page></User_home_page>
+                <Login email={props.userEmail} password={props.userPassword}></Login>
                 </React.StrictMode>
                 );
              }else{
