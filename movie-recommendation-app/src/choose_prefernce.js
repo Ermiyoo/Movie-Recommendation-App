@@ -1,8 +1,8 @@
 import { CategoryContainer } from "./choose_prefernce_components";
 import "./choose_prefernce.css"
-function ChoosePrefernces(){
+function ChoosePrefernces(props){
     return(
-        <CategoryContainer></CategoryContainer>
+        <CategoryContainer userEmail={props.userPreEmail} userPassword={props.userPrePassword}></CategoryContainer>
     );
 }
 export default ChoosePrefernces

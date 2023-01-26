@@ -18,18 +18,4 @@
 ### --> AMANUEL SETU 
 ### --> ABEL GETACHEW
 
-# What can this site Do?
-
-### ---> User
-
-#### Create User Account / Signup
-#### Login to your Account / Login
-#### Select Favourite geners and get recommendation based on your choice
-#### Browse Available Movies
-#### Download A Movie (Simulation)
-#### Add Movies to Favourites List
-
-### ---> Admin
-
-#### Add new Movie To the Database
-#### Update Movies
+Documentation is in 'without_backend/steps/step_by_step.txt'

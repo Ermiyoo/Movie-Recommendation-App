@@ -1,6 +1,6 @@
 1 login page will appear
 2 since there is no user who signed in click sign in link
-3 then insert the necessary information makesure password and confirm password are 
+3 then insert the necessary information makesure you have entered all the information required ,password and confirm password are 
   same else alert will appear then click 'Create Account' button
 4 from the avilable categories choose at least 3 and hit next
 5 then pervious login page will come, insert user email and password as you have created
@@ -12,7 +12,7 @@
 			2) if you want to unlike click the heart again and it will remove it from favorites list
 			3) click favorite button on top of navigation bar
 			4) then it will forward us to favorite movis list click home button and go back to home
-		B)Seach a movie
+		B)Search a movie
 			1)in the navigation bar you will find search input bar click on it
 			2)insert name of movie(title) then if there is a movie with title it will immedatily forward us to detail page of that movie
 		C)See detail of movie
@@ -25,4 +25,26 @@
 					2)else when you click download button alert will come notifying you download have started and .mkv file with 
 					 movie name will be downloaded to your machine
 				b)go back to home page by clicking home button on the top
-				
+		C)About us page
+			1)click about us button and got to about us page
+			2)there is a description of organization
+			3)in this page we have implemented useState and useEffect hooks to handle the comment section
+			4)write a comment and 
+
+
+Genearl function:
+	1) Login Authentication
+	2) SignUp page that lets users to create account and save password and email temporarily
+	3) Check for realase date and denie download request from user
+	4) Enable user to download movie of his prefernce
+	5) Enalbe user to comment and temporarily hold commentand display 
+	6) Ask user to select at least 3 geners/categories when they first sign in else don't let them go to next page(home page)
+	7) Capable of add film to favorite list and remove
+	8) Enable user to search for movie and if the movie is avilable provide them the detail page for that movie
+	9) Confirm all information are filled, password and confirm password is the same
+	10) display avilable movies iteratively on user homepage with like status and realase date
+	11) If user add movie to favorite and then change his mind then enable them to remove it by clicking like button again 
+	12) Enable users to go back to Home page from all pages after login
+	13) Enable users to see detail information about specific movie
+Non-funtional 
+	14) To make the web portable we have made user home page and favorite page adaptable to change in screen size
