@@ -1,0 +1,65 @@
+.next{
+    background-color: white;
+    margin: 20px;
+    background-position: 10px 10px;
+    border-radius: 20px;
+    border: solid rgb(42, 112, 241);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+}
+  .choose_prefernce_container{
+    font-family: sans-serif;
+    margin: 0 auto; text-align: center;
+    background-color: rgb(47, 45, 45);
+    color:antiquewhite;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 500px;
+     height: 500px;
+     margin: 100px auto;}
+  
+  div label input {margin-right: 100px;}
+  
+  .cat{
+    margin: 4px;
+    background-color: rgb(247, 242, 242);
+    border-radius: 4px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    float: left;
+  }
+  
+  .cat label {
+    float: left; line-height: 3.0em;
+    width: 150px; height: 100px;
+    
+  }
+  
+  .cat label span {
+    text-align: center;
+    display: block;
+  }
+  
+  .cat label input {
+    position: absolute;
+    display: none;
+    color: rgb(17, 17, 17) !important;
+  }
+  .cat label input + span{color: rgb(35, 34, 34);}
+  
+  
+ .cat input:checked + span {
+      color: #000000;
+      text-shadow: 0 0  6px rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  .action input:checked + span{background-color: #F75A1B;}
+  .comedy input:checked + span{background-color: #1BB8F7;}
+  .drama input:checked + span{background-color: #D9D65D;}
+  .fantasy input:checked + span{background-color: #82D44E;}
+  .horror input:checked + span{background-color: #F3A4CF;}
+  .mystery input:checked + span{background-color: #8C1B1B;}
+  .romance input:checked + span{background-color: #AC9BD1;}
+  .western input:checked + span{background-color: #214A09;}
