@@ -22,7 +22,7 @@ export default class Sign_up_page extends React.Component {
   signUp = () => {
     console.log(this.state);
     axios
-      .post("http://localhost:8000/api/v1/user/createAccount", {
+      .post("https://moviebackend-rmr1.onrender.com/api/v1/user/createAccount", {
         username: this.state.username,
         password: this.state.password,
         firstName: this.state.firstname,
