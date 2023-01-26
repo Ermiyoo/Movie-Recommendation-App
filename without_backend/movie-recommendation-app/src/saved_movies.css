@@ -1,0 +1,10 @@
+.favorite{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+}
